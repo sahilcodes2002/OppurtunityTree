@@ -312,7 +312,7 @@ function Sidebar({ isSidebarOpen }) {
               </a>
             </li>
           </ul>
-          <ul className=" mt-80 pt-8 space-y-2 font-medium border-t text-mytext border-gray-200 dark:border-[rgb(31,94,75)]">
+          <ul className=" mt-10 pt-10 space-y-2 font-medium border-t text-mytext border-gray-200 dark:border-[rgb(31,94,75)]">
             <li>
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSe7G-6BswDGNbcGfjRcGttV4oxP3eet_QRgUTkHkuwc49axfA/viewform?usp=sf_link"
