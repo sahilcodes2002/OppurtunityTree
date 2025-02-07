@@ -30,7 +30,7 @@ export function Signin() {
       .then((response) => {
         if (response.data.message == "no user found") {
           alert(response.data.message);
-          //console.log(response.data.message)
+          return;
         }
         localStorage.setItem("token", response.data.token);
         //console.log(response.data.data.name);
@@ -47,7 +47,7 @@ export function Signin() {
   useEffect(() => {
     const token = localStorage.getItem("token");
     if (token) {
-      //navigate("/dashboard")
+      navigate("/dashboard")
     }
   }, []);
 
