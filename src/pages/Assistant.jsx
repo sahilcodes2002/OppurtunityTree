@@ -342,7 +342,7 @@ export default function Assistant() {
           <div className="bg-white rounded-lg shadow-sm p-6 border border-gray-100">
             {question && (
               <div className="flex justify-between items-start mb-6">
-                <h3 className="text-lg font-semibold text-gray-800">
+                <h3 className="text-[15px] font-semibold text-gray-800">
                   {question.question}
                 </h3>
                 <button
@@ -391,7 +391,7 @@ export default function Assistant() {
             {loadingres && (
               <div className="m-auto">
                 <div style={{ display: "flex", alignItems: "center" }}>
-                  <span className="text-sm inline text-yellow-600">
+                  <span className="text-sm inline text-yellow-500">
                     Surfing web for Personalized response for you
                   </span>
                   <span>
